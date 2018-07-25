@@ -65,7 +65,7 @@
       
         <li class="list-item">
           
-            <a href="/" class="item-link active">Home</a>
+            <a href="/" class="item-link">Home</a>
           
         </li>
       
@@ -110,7 +110,7 @@
         
           <li class="menu-item">
             
-              <a href="/" class="menu-link mobile-active">Home</a>
+              <a href="/" class="menu-link">Home</a>
             
           </li>
         
@@ -149,41 +149,43 @@
   </div>
 </header>
 
-    <main class="app-body">
+    <div id="article-banner">
+  <h2>Archives</h2>
+  <p class="post-date">文章归档</p>
+</div>
+<main class="app-body" id="archives">
   
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/posts/c35329b8593bad9b.html">个税法修订征集意见超12万条 公众关注聚焦四大热点</a>
-      </h2>
-      <p class="article-date">July 25, 2018</p>
-      
-      <div class="article-summary">
-        
-          近日，在北京某外企工作的宋女士就个税法修正草案提交了两条意见，分别针对起征点和税率。“5000元的起征点略低，应该提高些，以后应该随着CPI定期上浮;现在七档超额累进税率，每档税率都可以降低些，最高边际税率可以降至30%。虽然我本人达不到最高边际税率，建议降低税率，希望能解决中等收入群体税负 ...
-        
+  
+  
+    <section class="time-section">
+  <h1 class="section-year">
+    2018
+  </h1>
+  <div class="section-list">
+    
+    
+      <div class="section-list-item">
+        <a href="/posts/c35329b8593bad9b.html" class="archive-title">个税法修订征集意见超12万条 公众关注聚焦四大热点</a>
+        <p class="archive-date">07-25</p>
       </div>
-      <a class="more" href="/posts/c35329b8593bad9b.html">Read more</a>
-    </article>
-  
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/posts/29e53d16.html">Hello World</a>
-      </h2>
-      <p class="article-date">June 13, 2018</p>
-      
-      <div class="article-summary">
-        
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer ...
-        
+    
+      <div class="section-list-item">
+        <a href="/posts/29e53d16.html" class="archive-title">Hello World</a>
+        <p class="archive-date">06-13</p>
       </div>
-      <a class="more" href="/posts/29e53d16.html">Read more</a>
-    </article>
-  
-
+    
+  </div>
+</section>
   
 </main>
 
-
+<script>
+  (function () {
+    var url = 'http://yoursite.com/archives/2018/07/index.html';
+    $('#article-banner').geopattern(url);
+    $('.header').removeClass('fixed-header');
+  })();
+</script>
     <div class="scroll-top">
   <span class="arrow-icon"></span>
 </div>
