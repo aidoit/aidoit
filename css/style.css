@@ -321,12 +321,6 @@ h2.article-head {
   opacity: 1;
   transform: translate(0, 0);
 }
-#copyright {
-  float: right;
-}
-#copyright a:active {
-  color: shadow;
-}
 .header {
   background: none;
   border: none;
@@ -485,8 +479,12 @@ h2.article-head {
   font-size: 0.9em;
 }
 .copyright {
+  text-align: right;
   color: #7f8c8d;
   line-height: 1.5;
+}
+.copyright a.active {
+  color: #7f8c8d;
 }
 .guide-pager {
   margin: 1em 3em;
