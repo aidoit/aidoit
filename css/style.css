@@ -14,7 +14,7 @@ body {
   position: relative;
   height: 100%;
   margin: 0;
-  color: #34495e;
+  color: #282828;
   font-size: 15px;
 }
 @media screen and (max-width: 480px) {
@@ -97,7 +97,7 @@ h2.article-head {
   margin-bottom: 0;
 }
 .article-head > a {
-  color: #34495e;
+  color: #282828;
 }
 .article-head > a:hover {
   border-bottom: 2px solid #2851ad;
@@ -109,7 +109,7 @@ h2.article-head {
 }
 .article-summary {
   margin: 10px 0;
-  color: #34495e;
+  color: #282828;
 }
 .more {
   font-weight: 600;
@@ -140,7 +140,7 @@ h2.article-head {
   margin: 0.4em 0;
   font-size: 2.2em;
   color: #fff;
-  text-shadow: 0 0 40px #34495e;
+  text-shadow: 0 0 40px #282828;
   opacity: 0;
   transform: translateY(-20px);
   transition: all 0.4s;
@@ -249,7 +249,7 @@ h2.article-head {
   display: block;
   margin: 0;
   text-align: center;
-  color: #34495e;
+  color: #282828;
 }
 .notice {
   font-size: 12px;
@@ -343,7 +343,7 @@ h2.article-head {
   background-color: #7f8c8d;
 }
 .fixed-header .item-link {
-  color: #34495e;
+  color: #282828;
 }
 .header-container {
   max-width: 1200px;
@@ -490,7 +490,7 @@ h2.article-head {
   font-weight: 600;
 }
 .page-arrow {
-  color: #34495e;
+  color: #282828;
 }
 .unvisible {
   visibility: hidden;
@@ -752,7 +752,7 @@ h2.article-head {
   border-radius: 50%;
 }
 .time-section .section-list .section-list-item .archive-title {
-  color: #34495e;
+  color: #282828;
   transition: all 0.3s ease;
   font-size: 1.1em;
 }
@@ -898,7 +898,7 @@ h2.article-head {
   padding: 20px;
   border: 1px solid #e5e5e5;
   border-radius: 4px;
-  color: #34495e;
+  color: #282828;
   transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
 }
 .card-container .project-card .card-wrap:hover {
@@ -1007,7 +1007,7 @@ h2.article-head {
   float: right;
 }
 .nav-container .nav-arrow {
-  color: #34495e;
+  color: #282828;
 }
 @-moz-keyframes shine {
   0%, 100% {
